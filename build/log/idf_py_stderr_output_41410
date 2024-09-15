@@ -1,0 +1,22 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d7587: task_wdt_timeout_handling at /home/mts/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d794c: task_wdt_isr at /home/mts/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082d75: _xt_lowint1 at /home/mts/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5e35: app_main at /home/mts/Documents/Projects/ESP-32/automated_door/main/automated_door.c:7
+0x400e35e4: main_task at /home/mts/esp/esp-idf/components/freertos/app_startup.c:208
+0x40085e01: vPortTaskWrapper at /home/mts/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d7587: task_wdt_timeout_handling at /home/mts/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x400d794c: task_wdt_isr at /home/mts/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40082d75: _xt_lowint1 at /home/mts/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400829e9: esp_timer_impl_get_counter_reg at /home/mts/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:130
+0x400829f7: esp_timer_impl_get_time at /home/mts/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c:142
+0x400d5f13: DHT11_read at /home/mts/Documents/Projects/ESP-32/automated_door/components/dht11/src/dht11.c:93
+0x400d5e38: app_main at /home/mts/Documents/Projects/ESP-32/automated_door/main/automated_door.c:11 (discriminator 1)
+0x400e35e4: main_task at /home/mts/esp/esp-idf/components/freertos/app_startup.c:208
+0x40085e01: vPortTaskWrapper at /home/mts/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

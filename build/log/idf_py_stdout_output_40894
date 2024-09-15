@@ -1,0 +1,17 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/automated_door.c.obj
+[2/9] Linking C static library esp-idf/main/libmain.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cd /home/mts/Documents/Projects/ESP-32/automated_door/build/bootloader/esp-idf/esptool_py && /home/mts/.espressif/python_env/idf5.3_py3.12_env/bin/python /home/mts/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/mts/Documents/Projects/ESP-32/automated_door/build/bootloader/bootloader.bin
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[4/9] No install step for 'bootloader'
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable automated_door.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/mts/Documents/Projects/ESP-32/automated_door/build/automated_door.bin
+[9/9] cd /home/mts/Documents/Projects/ESP-32/automated_door/build/esp-idf/esptool_py && /home/mts/.espressif/python_env/idf5.3_py3.12_env/bin/python /home/mts/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/mts/Documents/Projects/ESP-32/automated_door/build/partition_table/partition-table.bin /home/mts/Documents/Projects/ESP-32/automated_door/build/automated_door.bin
+automated_door.bin binary size 0x2c140 bytes. Smallest app partition is 0x100000 bytes. 0xd3ec0 bytes (83%) free.
